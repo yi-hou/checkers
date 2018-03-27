@@ -1,0 +1,33 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<div class="row">
+  <div class="col">
+    <div id="form_name">
+    <div id="h1">Multiplayer checkers<br><br>
+      Choose the game type <br>
+      of checkers<br>
+      which you want to<br>
+     play<br>
+
+     <br><br><br><br><br><br>
+     <form action= "rules" method="get">
+      <button type="type" class="btn btn-success" value="Rules"> Rules </button>
+     </form>
+
+
+
+    </div>
+   <form action= "variation1" method="get">
+    <button type="type" class="btn btn-primary" id="btn1" value="Variation 1"> variation 1 </button>
+   </form>
+
+   <form action= "variation2" method="get">
+    <button type="type" class="btn btn-primary" id="btn2" value="Variation 2"> variation 2 </button>
+   </form>
+
+   </div>
+</div>
+
+</div>

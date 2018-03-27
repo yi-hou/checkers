@@ -1,0 +1,191 @@
+@import "bootstrap";
+
+#layout {
+    //height: 820px;
+    //width: 820px;
+    height:80%;
+    width: 80%;
+    margin: 10 auto;
+    border: 20% solid;
+    border-color: black;
+    background-color: #31c6b0;
+    //background-image: url("/images/index.jpg");
+}
+#form_name {
+  position: relative;
+  width: 740px;
+  height: 498px;
+  margin: 0 auto;
+  background-image: url("/images/background.jpg");
+  }
+
+#h1{
+  position: absolute;
+  left : 20px;
+  top  : 150px;
+  font-size: 30;
+}
+#rules{
+  position: absolute;
+  left : 20px;
+  top  : 150px;
+  font-size: 20;
+  background-color: white;
+}
+
+#btn1{
+  position: absolute;
+  left : 480px;
+  top  : 180px;
+}
+#btn2{
+  position: absolute;
+  left : 480px;
+  top  : 280px;
+}
+
+
+#game_name{
+  position: absolute;
+  left : 398px;
+  top  : 235px;
+}
+
+#user_name{
+  position: absolute;
+  left : 398px;
+  top  : 350px;
+}
+
+#message{
+  position: absolute;
+  left : 20px;
+  top  : 150px;
+}
+
+label {
+  font : sans-serif;
+}
+
+#formbutton {
+  position     : absolute;
+  left         : 550px;
+  top          : 450px;
+
+
+  padding      : 5px;
+
+  font         : bold .6em sans-serif;
+  border       : 2px solid #333;
+  border-radius: 5px;
+  background   : none;
+
+  cursor       : pointer;
+
+}
+
+#formbutton:after {
+  content: " >>>";
+}
+
+#formbutton:hover,
+#formbutton:focus {
+  outline   :
+
+ none;
+  background: #000;
+  color   : #FFF;
+}
+
+#h1game{
+  width: 800px;
+  font-family: sans-serif;
+  //font: bold .100em Bookman;
+  left: 500px;
+  color: White;
+  font-weight: 900;
+}
+
+#turn{
+  color: White;
+  font-weight: 900;
+  font-size: 25px;
+}
+.buttonhide{
+  visibility: hidden;
+}
+
+
+body {
+    //font-size: 20pt;
+    font  : 21px sans-serif;
+    padding : 2em;
+    margin  : 0;
+    background-image: url("/images/index.jpg");
+    //attribution: Image downloaded from pintrest https://www.pinterest.com/pin/691654455242522152/
+    background-repeat: no-repeat;
+    background-size:cover;
+  //background : #222;
+
+}
+.piece {
+    width: 80%;
+    height: 80%;
+    border-radius: 40px;
+    margin: 10%;
+    cursor:move;
+}
+.red{
+    background-color:red;
+    border:2px solid;
+    border-color: black;
+    box-shadow: 2px 15px 10px orange;
+    //background-image: url("/images/red.png");
+}
+
+.black{
+    //background-color:#663300;
+    background-color: #c6a131;
+    border: 2px solid;
+    border-color: black;
+    box-shadow: 2px 15px 10px grey;
+    //background-image:url("/images/black.png");
+}
+
+.king{
+    border: 7px solid blue;
+    width: 80%;
+    height: 80%;
+    border-radius: 40px;
+    margin: 10%;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    float:left;
+    line-height: 140px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.validblock {
+    width: 100px;
+    height: 100px;
+    border: 10px solid yellow;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    float:left;
+    line-height: 140px;
+    text-align: center;
+    font-family: "Arial Narrow";
+    font-weight: bold;
+    font-size: 30px;
+}

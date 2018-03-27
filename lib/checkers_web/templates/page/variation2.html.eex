@@ -1,0 +1,27 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+<form action= "/game2/:game" method="get" id="form_name">
+<div id="game_name">
+  <label for="username">Enter Game Name: </label>
+  <input type="text" id="gname" name="username">
+</div>
+<div id="user_name">
+  <label for="pusername">Enter Your Name: </label>
+  <input type="text" id="uname" name="pusername">
+</div>
+<div id="message">
+  <label for="msg">This is the second Variation:
+    <br> Game of Checkers
+    <br>
+    <br>
+<br>All coins can move <br> forward and <br> backward.  </label>
+<br>
+
+</div>
+<div class="button" id="formbutton">
+  <button type="submit"> Enter </button>
+</div>
+</form>

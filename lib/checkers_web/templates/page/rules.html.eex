@@ -1,0 +1,39 @@
+<div id="rules">
+  <h1> Rules of playing Checkers </h1>
+<h2> Setup and Object of Checkers</h2>
+Checkers is played on a standard 64 square board.<br>
+Only the 32 dark colored squares are used in play. Each player begins the game with 12 pieces, or checkers, placed in the three rows closest to him or her.
+
+The object of the game is to capture all of your opponent’s checkers or position your pieces so that your opponent has no available moves.
+
+
+<br><br>
+<h2>Movement</h2>
+Basic movement is to move a checker one space diagonally forward.
+<br>You can not move a checker backwards until it becomes a King, as described below.
+<br> If a jump is available, you must take the jump, as described in the next question and answer.
+
+<br><br>
+<h2> Jumping </h2>
+If one of your opponent’s checkers is on a forward diagonal next to one of your checkers, and the next space beyond the opponent’s checker is empty, <br>
+then your checker must jump the opponent’s checker and land in the space beyond. Your opponent’s checker is captured and removed from the board.
+<br>
+After making one jump, your checker might have another jump available from its new position. Your checker must take that jump too.<br>
+ It must continue to jump until there are no more jumps available. Both men and kings are allowed to make multiple jumps.
+<br>
+If, at the start of a turn, more than one of your checkers has a jump available, then you may decide which one you will move. But once you have chosen one, it must take all the jumps that it can.
+<br>
+
+<br>
+<h2> Crowning </h2>
+  When one of your checkers reaches the opposite side of the board, it is crowned and becomes a King. Your turn ends there.
+  <br>
+  A King can move backward as well as forward along the diagonals. It can only move a distance of one space.<br>
+
+A King can also jump backward and forward. It must jump when possible, and it must take all jumps that are available to it.
+<br> In each jump, the King can only jump over one opposing piece at a time, and it must land in the space just beyond the captured piece.
+<br>The King can not move multiple spaces before or after jumping a piece.
+<br>
+
+</div>
+<!-- attribution : https://www.itsyourturn.com/t_helptopic2030.html Rules of checkers >

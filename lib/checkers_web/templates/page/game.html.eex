@@ -1,0 +1,16 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<div class="row">
+  <div class="col">
+    <div id="h1game"> <h1>Checkers Game: <%= @game %></h1><br/>
+    <h1>Player: <%= @name %></h1></div>
+    <script>
+      window.gameName = "<%= @game %>";
+      window.userName = "<%= @name %>";
+    </script>
+    <div id="root">
+      <p>React app not loaded...</p>
+    </div>
+  </div>
+</div>
